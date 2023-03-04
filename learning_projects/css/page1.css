@@ -1,0 +1,156 @@
+/* this is where the universal contents are style */
+
+header{
+background-color: rgba(0,0,0,0.8);
+color: gray;
+height: 122px;
+min-width: none;
+}
+
+nav > ul{
+display: flex;
+flex-flow: row wrap;
+background-color: #FFD700;
+justify-content: center;
+align-item: center;
+min-width: ;
+}
+
+nav > ul > li{
+margin: 0px 20px;
+ 
+}
+
+footer{
+bottom: 0px;
+background-color: rgba(0,0,0,0.8);
+color: gray;
+position: fixed;
+text-align: center;
+width: 100%;
+left: 0px;
+height: 45px;
+}
+
+
+
+div{
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+aside{
+flex: 30%;
+max-height: 460px;
+border-color: black;
+border-style: outset;
+margin: 80 0 80 20;
+}
+
+section{
+flex: 70%;
+margin: 15px;
+text-align: justify;
+}
+
+
+section p{
+text-align: center;
+font-size: large;
+display: block;
+margin: 10px;
+}
+
+@media screen and (max-width: 600px){
+    div{
+        flex-flow: row wrap;
+    }
+    
+    nav > ul{
+        flex-flow: row nowrap;
+    }
+}
+
+
+/* classes are put in this section */
+
+#sear{
+text-align: right;
+background-text-color: rgb(0,0,0);
+color: #b2beb5;
+display: flex;
+flex-flow: row nowrap;
+}
+
+.lover{
+border-style: solid;
+border-color:
+margin: 18px;
+paddling: 5px;
+}
+
+.flow{
+border-style: solid;
+border-color:
+margin: 18px;
+paddling: 5px;
+}
+
+.blue{
+float: right;
+clear: right;
+margin: 25px;
+height: 280px;
+width: 275px;
+position: relative;
+}
+
+.red{
+float: left;
+clear: left;
+margin: 25px;
+height: 280px;
+width: 275px;
+position: relative;
+}
+
+
+
+
+/* this section is for id */
+
+
+#secUp{
+display: block;
+flex-flow: row wrap;
+border-style: double;
+margin-bottom: 10px;
+}
+
+#secDo{
+dispay: block;
+flex-flow: row wrap;
+border-style: double;
+margin-top: 10px;
+}
+
+#asi{
+background-color: #dbf0f3;
+border-radius: 11px;
+border-color: rgb(1,55,1);
+border-style: solid;
+margin: 5px;
+paddling: 5px;
+display: block;
+}
+
+#asid{
+background-color: #dbf0f3;
+border-radius: 11px;
+border-color: rgb(1,55,1);
+border-style: solid;
+margin: 5px;
+paddling: 5px;
+display: block;
+}
+
